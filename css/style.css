@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background: rgba(194, 198, 199, 0.914);
+    max-width: 1000px;
+    margin: auto;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+
+.body--whiteThem {
+    background-color: white;
+}
+
+.section {
+    text-align: center;
+}
+
+
+.footer {
+    background-color: rgb(175, 174, 174);
+    text-align: center;
+    margin-top: 10px;
+}

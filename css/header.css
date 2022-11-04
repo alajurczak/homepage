@@ -1,0 +1,22 @@
+.header__heading {
+    color: rgb(219, 215, 215);
+    background-color: rgb(49, 123, 214);
+    text-align: center;
+    border: black solid;
+    border-radius: 20px;
+    box-shadow: 10px 9px 26px -3px rgba(66, 68, 90, 0.57);
+}
+
+.header__button {
+    color: rgb(49, 123, 214);
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border: #000 solid;
+    font-size: 15px;
+}
+
+.header__button:hover {
+    background-color: rgb(160, 154, 154);
+    color: black;
+}

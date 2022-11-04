@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wycieczka do Grecji</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+
+</head>
+
+<body class="body">
+    <header clas="header">
+        <h1 class="header__heading">Wycieczka do Grecji</h1>
+        <p>
+            <button class="header__button js-headerButton"><span class="js-themeName">Jasny</span> motyw</button>
+        </p>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li><a class="navigation__link" href="#docelowe-miejsce">Docelowe miejsce - Kreta</a></li>
+            <li><a class="navigation__link" href="#jednodniowa-wycieczka-na-santorini">Jednodniowa wycieczka na
+                    Santorini</a></li>
+            <li><a class="navigation__link" href="#czy-polecamy">Czy polecamy?</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section">
+            <img width="200" src="images/moje zdjecie.jpg" alt="Portret nad morzem">
+            <img width="200" src="images/IMG-8200.jpg" alt="Widok morza">
+            <img width="200" src="images/IMG-8250.jpg" alt="Parasol">
+        </section>
+        <article class="article">
+            <h2 class="article__header" id="docelowe-miejsce">Docelowe miejsce - Kreta</h2>
+            <p>
+                <button class="article__button js-articleButton"><span class="js-buttonName">Ukryj</span> opis "Docelowe
+                    miejsce - Kreta"</button>
+            </p>
+            <div class="article__hidden js-articleHidden">
+                <p>W wakacje 07.2022 wybraliśmy się razem z narzeczonym na wakacje do Grecji, a
+                    dokładniej na Kretę. Dlaczego akurat takie miejsce? Głównie ze względu na to, że ta wyspa ma dogodne
+                    możliwości przepłyniecia z niej na wyspę Santorini! Jednak najpierw o samej Krecie. </p>
+
+                <h3 class="article__crete">Kreta - co warto odwiedzić.</h3>
+                <p> Nie wybraliśmy Krety tylko ze względu na samo Santorini. Wyspa oferuje wiele niesamowitych miejsc
+                    które warto odwiedzić. Nam udało się zobaczyć tylko niektóre z nich, bo na wakacjach cenimy sobie
+                    także wylegiwanie na słoneczku. Ciekawymi miejscami wartymi odwiedzenia są np. <b>Laguna Balos,
+                        miasto Chania, wąwóz Samaria</b> czy <b>laguna Elafonisi.</b><br>Oprócz tego mniej popularnym
+                    miejscem odwiedzin jest ogród botaniczny <i>Botanical Park&Garden of Crete</i>, który warto
+                    odwiedzić, ze względu na przepiękny taras widokowy, na który się wchodzi po zwiedzeniu ogrodu. Na
+                    tarasie znajduje się restauracja, która oferuje dania przyrządzane z dodatkiem owoców z własnego
+                    ogrodu!</p>
+            </div>
+
+            <div class="article__gallery">
+                <img height="265" src="images/IMG-6619.jpg" alt="Laguna Elafonisi widok">
+                <img width="200" src="images/IMG-8416.jpg" alt="Laguna Elafonisi woda">
+                <img height="265" src="images/IMG-8687.jpg" alt="Widok z ogorodu botanicznego">
+            </div>
+            <div class="article__container">
+                <table class="table">
+                    <caption class="table__caption">Miejsca warte odwiedzenia na Krecie</caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="col">Miejsce</th>
+                        <th class="table__cell table__cell--header" scope="col">Opis</th>
+                        <th class="table__cell table__cell--header" scope="col">Położenie</th>
+                        <th class="table__cell table__cell--header" scope="col">Odwiedzone?</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Laguna Balos</th>
+                        <td class="table__cell">Jedna ze sztandarowych plaż Krety jeśli nie całej Grecji. Nawet
+                            najmniej
+                            udane zdjęcie ukazujące krajobraz tego miejsca musi robić i w większości wypadków robi
+                            naprawdę duże wrażenie. Brak wygodnej asfaltowej drogi sprawia, że poza godzinami kiedy
+                            dopływają tu wycieczkowe statki, plaża ta jest odwiedzana przez niezbyt dużą liczbę
+                            turystów.</td>
+                        <td class="table__cell" rowspan="6">Kreta</td>
+                        <td class="table__cell">Nie</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Chania</th>
+                        <td class="table__cell">Miasto zostało założone przez Wenecjan na miejscu starożytnego,
+                            istniejącego tu już ok. 3400 p.n.e., minojskiego osiedla Kydonia. Obecnie Chania słynie z
+                            atrakcyjnej nabrzeżnej dzielnicy portowej i charakterystycznej zabudowy z czasów weneckich.
+                        </td>
+                        <td class="table__cell">Tak</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Wąwóz Samaria</th>
+                        <td class="table__cell">Wąwóz Samaria, jeden z najbardziej zapierających dech w piersiach
+                            i
+                            najdłuższych szlaków turystycznych w Europie. Często określany jako kraina wąwozów,
+                            naturalny krajobraz Krety jest usiany ponad 400 kanionami i jest domem dla największej
+                            liczby wąwozów w Grecji, a Wąwóz Samaria jest ich klejnotem koronnym.</td>
+                        <td class="table__cell">Nie</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Laguna Elafonisi</th>
+                        <td class="table__cell">Niewielka wyspa położona tuż przy południowo-zachodnim brzegu
+                            Krety. Na
+                            Elafonisi znajduje się plaża z charakterystycznym różowym piaskiem. Z różowym kolorem piasku
+                            na wyspie wiąże się legenda, według której w Wielką Sobotę 24 kwietnia 1824 roku oddziały
+                            tureckie pod wodzą Ibrahima brutalnie wymordowały szukających tu schronienia 600 kobiet i
+                            dzieci – plaża spłynęła krwią i od tego czasu niegdyś zwykły piasek ma kolor różowy.</td>
+                        <td class="table__cell">Tak</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Ogród Botaniczny</th>
+                        <td class="table__cell">Liczy 20 hektarów ziemi porośniętej przez drzewa owocowe z całego
+                            świata,zioła, rośliny lecznicze i ozdobne. Tworzą one swoisty mikroklimat, w którym warto
+                            spędzić 1-2 relaksujące godziny. Oprócz lokalnych popularnych roślin znajdziecie tu także
+                            unikatowe próbki kreteńskiej flory i fauny oraz tropikalnych i subtropikalnych gatunków z
+                            całego świata.</td>
+                        <td class="table__cell">Tak</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Pałac minojski w Knossos</th>
+                        <td class="table__cell">To jedno z najważniejszych stanowisk archeologicznych na świecie.
+                            Jest
+                            również jednym z najbardziej atrakcyjnych do odwiedzenia, dzięki żywej i kolorowej
+                            renowacji, która ożywia starożytny świat.</td>
+                        <td class="table__cell">Nie</td>
+                    </tr>
+                </table>
+            </div>
+        </article>
+        <article>
+            <h2 class="article__header" id="jednodniowa-wycieczka-na-santorini">Jednodniowa wycieczka na Santorini.</h2>
+            <button class="article__buttonTwo js-articleButtonTwo"><span class="js-buttonNameTwo">Ukryj</span> opis "Jednodniowa
+                wycieczka na Santorini."</button>
+            <div class="article__hiddenTwo js-articleHiddenTwo">
+                <p>Naszym celem było budżetowo wybrać się na Santorini. Samo w sobie Santorini jest bardzo drogie.
+                    Postanowiliśmy kupić wycieczkę jednodniową "po taniości". Wyruszyliśmy z samego rana około godziny
+                    4:30, żeby dotrzeć na pobliski port, z którego wypływał katamaran na Santorini. Na miejscu
+                    zwiedziliśmy stolicę wyspy - Firę, oraz najbardziej popularne miasto Oia. Widoki przepiękne,
+                    jedzenie smakowite, jednak <strong>uwaga na ogrom turystów</strong> - potrafi przytłoczyć.
+                </p>
+            </div>
+            <div class="article__gallery">
+                <img width="200" src="images/IMG-9026.jpg" alt="Santorini widok Oia">
+                <img width="200" src="images/IMG-9067.jpg" alt="Santorini kościół">
+                <img width="200" src="images/IMG-9025.jpg" alt="Santorini widok domków">
+                <img width="200" src="images/IMG-9149.jpg" alt="Santorini Fira widok z morzem">
+                <img width="200" src="images/IMG-9236.jpg" alt="Santorini i ja">
+                <img width="200" src="images/IMG-9151.jpg" alt="Santorini Fira">
+            </div>
+        </article>
+        <article>
+            <h2 class="article__header article__header--differentBackground" id="czy-polecamy">Czy polecamy?</h2>
+            <div class="article__box">
+                <p>Zdecydowanie TAK! Kreta jest przepiękną wyspą z wieloma atrakcjami turystycznymi. Każdy znajdzie coś
+                    dla siebie. Jednodniowa wycieczka na Santorini to intensywna i męcząca wyprawa, ale rekompensująca
+                    niesamowitymi widokami i wspaniałym jedzeniem. Spodobało Ci się? To <em> musisz </em> tam pojechać!
+                </p>
+            </div>
+        </article>
+    </main>
+    <footer class="footer">Copyright © 2022 - Alicja Jurczak</footer>
+</body>
+
+</html>

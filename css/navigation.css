@@ -1,0 +1,39 @@
+.navigation__list {
+    list-style-type: none;
+    background-color: rgb(49, 123, 214);
+    border: solid black;
+    border-radius: 20px;
+    box-shadow: 10px 9px 26px -3px rgba(66, 68, 90, 0.57);
+    text-align: center;
+    padding: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+.navigation__link:visited {
+    color: #000
+}
+
+.navigation__link:focus {
+    outline: 10px solid black;
+    text-decoration: underline;
+    color: rgb(44, 156, 212);
+}
+
+.navigation__link:hover {
+    color: white;
+    border-bottom: 1px solid;
+    outline: none;
+
+}
+
+.navigation__link:active {
+    color: rgb(171, 171, 177);
+}

@@ -1,0 +1,68 @@
+.article__header {
+    color: rgb(219, 215, 215);
+    background-color: rgb(49, 123, 214);
+    text-align: center;
+    border: black solid;
+    border-radius: 20px;
+    box-shadow: 10px 9px 26px -3px rgba(66, 68, 90, 0.57);
+}
+
+.article__header--differentBackground {
+    background-color: rgba(194, 198, 199, 0.914);
+    color: black;
+}
+
+.article__button {
+    color: rgb(49, 123, 214);
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border: #000 solid;
+    font-size: 15px;
+}
+
+.article__button:hover {
+    background-color: rgb(160, 154, 154);
+    color: black;
+}
+
+.article__hiddenText {
+    display: none;
+}
+
+
+.article__crete {
+    text-align: center;
+}
+
+.article__gallery {
+    text-align: center;
+}
+
+.article__container {
+    overflow-x: auto;
+}
+
+.article__buttonTwo {
+    color: rgb(49, 123, 214);
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: #000 solid;
+    font-size: 15px;
+}
+
+.article__buttonTwo:hover {
+    background-color: rgb(160, 154, 154);
+    color: black;
+}
+
+.article__box {
+    color: rgb(0, 0, 0);
+    background-color: rgb(49, 123, 214);
+    border: black solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 10px 9px 26px -3px rgba(66, 68, 90, 0.57);
+}
