@@ -1,30 +1,47 @@
-console.log("Cześć!");
+{
+    const welcome = () => {
+        console.log("Hello!");
+    }
 
-let headerButtonElement = document.querySelector(".js-headerButton");
-let body = document.querySelector(".body");
-let themeNameElement = document.querySelector(".js-hemeName");
+    const toggleBackground = () => {
+        const body = document.querySelector(".body");
+        const themeNameElement = document.querySelector(".js-themeName");
 
-let buttonElement = document.querySelector(".js-articleButton");
-let buttonNameElement = document.querySelector(".js-buttonName");
-let hiddenElement = document.querySelector(".js-articleHidden");
+        body.classList.toggle("body--whiteThem");
+        themeNameElement.innerText = body.classList.contains("body--whiteThem") ? "Ciemny" : "Jasny";
+    };
 
-let buttonTwoElement = document.querySelector(".js-articleButtonTwo");
-let buttonNameTwoElement = document.querySelector(".js-buttonNameTwo");
-let hiddenTwoElement = document.querySelector(".js-articleHiddenTwo");
+    const onhidingTextClick = () => {
+        const buttonNameElement = document.querySelector(".js-buttonName");
+        const hiddenElement = document.querySelector(".js-articleHidden");
+
+        hiddenElement.classList.toggle("article__hiddenText");
+        buttonNameElement.innerText = hiddenElement.classList.contains("article__hiddenText") ? "Pokaż" : "Ukryj";
+    };
+
+    const onhidingSecondTextClick = () => {
+        let buttonNameTwoElement = document.querySelector(".js-buttonNameTwo");
+        let hiddenTwoElement = document.querySelector(".js-articleHiddenTwo");
+
+        hiddenTwoElement.classList.toggle("article__hiddenText");
+        buttonNameTwoElement.innerText = hiddenTwoElement.classList.contains("article__hiddenText") ? "Pokaż" : "Ukryj";
+    };
+
+    const init = () => {
+        const headerButtonElement = document.querySelector(".js-headerButton");
+        headerButtonElement.addEventListener("click", toggleBackground);
 
 
-headerButtonElement.addEventListener("click", () => {
-    body.classList.toggle("body--whiteThem");
-    themeNameElement.innerText = body.classList.contains("body--whiteThem") ? "Ciemny" : "Jasny";
-})
+        const buttonElement = document.querySelector(".js-articleButton");
+        buttonElement.addEventListener("click", onhidingTextClick);
 
-buttonElement.addEventListener("click", () => {
-    hiddenElement.classList.toggle("article__hiddenText");
-    buttonNameElement.innerText = hiddenElement.classList.contains("article__hiddenText") ? "Pokaż" : "Ukryj";
-})
+        const buttonTwoElement = document.querySelector(".js-articleButtonTwo");
+        buttonTwoElement.addEventListener("click", onhidingSecondTextClick);
 
-buttonTwoElement.addEventListener("click", () => {
-    hiddenTwoElement.classList.toggle("article__hiddenText");
-    buttonNameTwoElement.innerText = hiddenTwoElement.classList.contains("article__hiddenText") ? "Pokaż" : "Ukryj";
-})
+        welcome();
+    };
+
+    init();
+}
+
 
