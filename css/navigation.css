@@ -1,7 +1,7 @@
 .navigation__list {
     list-style-type: none;
-    background-color: rgb(49, 123, 214);
-    border: solid black;
+    background-color: rgba(49, 123, 214);
+    border: solid rgba(0, 0, 0);
     border-radius: 20px;
     box-shadow: 10px 9px 26px -3px rgba(66, 68, 90, 0.57);
     text-align: center;
@@ -13,27 +13,27 @@
 
 .navigation__link {
     text-decoration: none;
-    color: #000;
+    color: rgba(0, 0, 0);
     font-weight: 700;
 }
 
 .navigation__link:visited {
-    color: #000
+    color: rgba(0, 0, 0);
 }
 
 .navigation__link:focus {
-    outline: 10px solid black;
+    outline: 10px solid rgba(0, 0, 0);
     text-decoration: underline;
-    color: rgb(44, 156, 212);
+    color: rgba(44, 156, 212);
 }
 
 .navigation__link:hover {
-    color: white;
+    color: rgba(255, 255, 255);
     border-bottom: 1px solid;
     outline: none;
 
 }
 
 .navigation__link:active {
-    color: rgb(171, 171, 177);
+    color: rgba(171, 171, 177);
 }
