@@ -11,7 +11,7 @@
         themeNameElement.innerText = body.classList.contains("body--whiteThem") ? "Ciemny" : "Jasny";
     };
 
-    const onhidingTextClick = () => {
+    const onHidingTextClick = () => {
         const buttonNameElement = document.querySelector(".js-buttonName");
         const hiddenElement = document.querySelector(".js-articleHidden");
 
@@ -19,7 +19,7 @@
         buttonNameElement.innerText = hiddenElement.classList.contains("article__hiddenText") ? "Pokaż" : "Ukryj";
     };
 
-    const onhidingSecondTextClick = () => {
+    const onHidingSecondTextClick = () => {
         let buttonNameTwoElement = document.querySelector(".js-buttonNameTwo");
         let hiddenTwoElement = document.querySelector(".js-articleHiddenTwo");
 
@@ -33,10 +33,10 @@
 
 
         const buttonElement = document.querySelector(".js-articleButton");
-        buttonElement.addEventListener("click", onhidingTextClick);
+        buttonElement.addEventListener("click", onHidingTextClick);
 
         const buttonTwoElement = document.querySelector(".js-articleButtonTwo");
-        buttonTwoElement.addEventListener("click", onhidingSecondTextClick);
+        buttonTwoElement.addEventListener("click", onHidingSecondTextClick);
 
         welcome();
     };
